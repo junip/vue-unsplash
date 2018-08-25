@@ -8,6 +8,3 @@ Steps to Use
 3. install unsplash-api.js using  npm i --save unsplash-js (read doc here https://www.npmjs.com/package/unsplash-js)
 4. In the main.js file update your app id and secretid
 5. npm run dev to get started. 
-
-
-
