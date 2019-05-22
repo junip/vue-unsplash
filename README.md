@@ -27,11 +27,15 @@ Once your account has been registered for the API, log in -> go to the Developer
 SignUp or Login in [Unsplash](https://unsplash.com). Go to API/devlopers ->  Documentation. Then Register your app to get the API key and secret.
 
 ## API Usage
-Make a new `.env` file and do the following
+
+Update your API_KEY and API_SECRET in the [main.js](https://github.com/junipdewan/vue-unsplash/blob/master/src/main.js)
 
 ```
- API_KEY = your_api_key
- API_SECRET = your_api_secret
+ const unsplash = new Unsplash({
+        applicationId: "API_KEY",
+        secret: "API_SECRET",
+        callbackUrl: "{CALLBACK_URL}"
+    });
 ```
 
 ## Usage
@@ -49,4 +53,6 @@ Make a new `.env` file and do the following
 The development of the App is still in progress. Only some part is implemented. You can help with 
 code contribution to add more functionality in the App.
 
-Checkout [React-Unsplash](https://github.com/junipdewan/react-unsplash). A clone app made using React and Unsplash JSON API
+## 
+
+Checkout another repo [React-Unsplash](https://github.com/junipdewan/react-unsplash). A clone app made using React and Unsplash JSON API
