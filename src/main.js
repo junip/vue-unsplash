@@ -17,8 +17,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 const unsplash = new Unsplash({
-  applicationId: "Your Application id",
-  secret: "Your Application Id secret",
+  applicationId: "e6af7d9938f28c183bb92081a5682a065d2fa00b0f2d55813c871c8ff48b81c5",
+  secret: "f8efd303a6288f38f10c218236b4dd65a8f2238a1141ad2771313f754dfa2a7f",
   callbackUrl: "{CALLBACK_URL}"
 });
 
