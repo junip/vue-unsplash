@@ -3,17 +3,18 @@
 
 Vue Unsplash is photo search webapp made using Vue.js which uses Unsplash JSON APIs for photo search. Unsplash [https://unsplash.com](https://unsplash.com/) the most powerful photo engine in the world. Trying to make the unplash like UI  and add functionality as much as possible
 
+<div align="center">
+  <image src="src/assets/overview.jpg">
+</div>
+
+
 ## Prerequisites
 
 You are required to have [Node.js](https://nodejs.org/) installed to run the app locally.
 
 ## Getting Started
 
-Install [unsplash-js](https://github.com/unsplash/unsplash-js) ([github](https://github.com/unsplash/unsplash-js))
 
-```
-npm i --save unsplash-js
-```
 ## Creating a developer account
 
 To access the Unsplash API, first [register](https://unsplash.com/developers) as a developer.
@@ -38,6 +39,8 @@ Update your API_KEY and API_SECRET in the [main.js](https://github.com/junipdewa
         callbackUrl: "{CALLBACK_URL}"
     });
 ```
+
+
 
 ## Usage
 
